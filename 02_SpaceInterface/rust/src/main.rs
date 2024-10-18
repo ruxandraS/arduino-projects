@@ -22,8 +22,7 @@ fn main() -> ! {
             ready_led.set_high();
             standby_led_1.set_low();
             standby_led_2.set_low();
-        }
-        else {
+        } else {
             // Button is not pressed
             ready_led.set_low();
             standby_led_1.set_low();
